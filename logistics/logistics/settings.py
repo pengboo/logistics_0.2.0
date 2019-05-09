@@ -128,10 +128,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS=[
-    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'static', )
 ]
 #开发阶段上传文件目录
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static', )
 
 #生产环境上传文件目录
 #MEDIA_ROOT = '/var/www/logistics/static'
